@@ -1,22 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #EDF4C2;
+    background-color: #092c2e;
 }
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: #0a3133;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-h1,
+h1 {
+    color: #EB5A3C;
+}
 h2 {
-    color: #007bff;
+    color: #DF9755;
 }
 .header {
     text-align: center;
@@ -29,7 +31,7 @@ h2 {
     font-size: 14px;
 }
 .contact a {
-    color: #007bff;
+    color: #E7D283;
     text-decoration: none;
 }
 .section {
@@ -37,7 +39,7 @@ h2 {
 }
 .section h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #EDF4C2;
     padding-bottom: 5px;
 }
 .item {
@@ -46,7 +48,7 @@ h2 {
 .item h3 {
     margin: 0;
     font-size: 18px;
-    color: #555;
+    color: #E7D283;
 }
 .item p {
     margin: 5px 0;
@@ -58,8 +60,8 @@ h2 {
 }
 .skills ul li {
     display: inline-block;
-    background: #007bff;
-    color: #fff;
+    background: #EDF4C2;
+    color: #EB5A3C;
     padding: 5px 10px;
     margin: 5px 5px 5px 0;
     border-radius: 4px;
