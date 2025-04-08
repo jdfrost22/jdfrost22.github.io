@@ -16,6 +16,7 @@ body {
 }
 h1 {
     color: #EB5A3C;
+    text-align: center;
 }
 h2 {
     color: #DF9755;
@@ -65,4 +66,11 @@ h2 {
     padding: 5px 10px;
     margin: 5px 5px 5px 0;
     border-radius: 4px;
+}
+a {
+    list-style: none;
+    color:#EDF4C2
+}
+a:hover {
+    color: #FFD700; 
 }
