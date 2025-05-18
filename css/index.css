@@ -76,5 +76,31 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .experience-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 
+    .footer-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;  
+        align-items: start;
+    }
+    #skills {
+        margin-top: 5px;
+    }
+    
+    #projects {
+        margin-top: 5px;
+    }
 }
